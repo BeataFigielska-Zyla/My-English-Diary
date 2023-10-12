@@ -4,6 +4,12 @@
     --third-color: rgb(208, 67, 29);
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     
     font-family: 'Courier New', Courier, monospace;
