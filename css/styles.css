@@ -7,11 +7,12 @@
 body {
     
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(./images/leaves.png), url(./images/leaves.png);
+    background-image: url(./images/leaves.png), url(./images/leaves3.png);
     background-color: var(--main-color);
     background-size: 275px;
     background-repeat: repeat-y, repeat-y;
     background-position: left, right;  
+    background-attachment: fixed;
 }
 .container {
     width: 1200px;
