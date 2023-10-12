@@ -1,13 +1,17 @@
 :root {
     --main-color: black;
-    --second-color: rgb(138,43,226);
-    --third-color: rgb(255,192,203);
+    --second-color: rgb(248, 165, 42);
+    --third-color: rgb(208, 67, 29);
 }
 
 body {
-    background-color: var(--main-color);
-    font-family: 'Courier New', Courier, monospace;
     
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./images/leaves.png);
+    background-color: var(--main-color);
+    background-size: 275px;
+    background-repeat: repeat-y;
+    background-position: left;  
 }
 .container {
     width: 1200px;
@@ -19,6 +23,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+
+    
 }
 
 .title {
@@ -31,4 +37,17 @@ body {
 
 .title>h1 {
     font-size: 70px;
+}
+
+h1 {
+    background-color: var(--second-color);
+    box-shadow: 0 3px 3px var(--main-color);
+}
+
+article>h2::before {
+    content: '🍂';
+}
+
+article>p::after {
+    content: '🍁🍂🍁'
 }
