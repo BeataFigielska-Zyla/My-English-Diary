@@ -21,7 +21,7 @@ body {
     background-attachment: fixed;
 }
 .container {
-    width: 800px;
+    width: 1200px;
     background-color: var(--second-color);
     padding: 5px 15px;
     font-size: 20px;
