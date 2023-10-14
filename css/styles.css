@@ -13,7 +13,7 @@
 body {
     
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(./), url(./images/leaves3.png);
+    background-image: url(./images/leaves.png), url(./images/leaves3.png);
     background-color: var(--main-color);
     background-size: 275px;
     background-repeat: repeat-y, repeat-y;
