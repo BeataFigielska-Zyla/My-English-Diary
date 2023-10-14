@@ -13,12 +13,16 @@
 body {
     
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(./images/leaves.png), url(./images/leaves3.png);
+    background-image: url(./), url(./images/leaves3.png);
     background-color: var(--main-color);
     background-size: 275px;
     background-repeat: repeat-y, repeat-y;
     background-position: left, right;  
     background-attachment: fixed;
+}
+
+ul {
+    list-style: none;
 }
 .container {
     width: 1200px;
@@ -57,4 +61,16 @@ article>h2::before {
 
 article>p::after {
     content: '🍁🍂🍁'
+}
+.mushroom {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.list-img {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
