@@ -75,6 +75,44 @@ article>p::after {
 .list-img {
     display: flex;
     justify-content: space-around;
-    gap: 40px;
-       
+    gap: 40px;      
+}
+
+.header-container {
+    background-color: var(--main-color);
+    padding: 50px 10px;
+    border: 1px dashed var(--second-color);
+    margin-bottom: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 2em;
+}
+
+.nav-container {
+    display: flex;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.icon {
+    fill: var(--second-color);
+    width: 32px;
+    height: 32px;
+}
+
+.icon:hover, 
+.icon:focus {
+    fill: var(--third-color);
+}
+
+.p-header {
+    font-size: 20px;
+    color: var(--second-color);
 }
