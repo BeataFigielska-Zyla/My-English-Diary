@@ -36,6 +36,7 @@ ul {
     margin-bottom: 20px;
 
     
+    
 }
 
 .title {
@@ -53,6 +54,7 @@ ul {
 h1 {
     background-color: var(--second-color);
     box-shadow: 0 3px 3px var(--main-color);
+    
 }
 
 article>h2::before {
@@ -65,17 +67,22 @@ article>p::after {
 .mushroom {  
     width: 100px;
     height: 100px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+
+.mushroom:nth-child(1) {
+animation: mushrooms 2s infinite 1s;
 }
 
 .mushroom:hover {
-    box-shadow: 0px 0px 2px 2px var(--main-color);
+    box-shadow: 0px 0px 2px 2px var(--main-color);  
+    
 }
 
 .list-img {
     display: flex;
     justify-content: space-around;
-    gap: 40px;      
+    gap: 40px;   
 }
 
 .header-container {
@@ -115,4 +122,10 @@ article>p::after {
 .p-header {
     font-size: 20px;
     color: var(--second-color);
+}
+
+@keyframes mushrooms {
+    0% {transform: scale(1)}
+    50% {transform: scale(1.25);}
+    100% {transform: scale(1);}
 }
