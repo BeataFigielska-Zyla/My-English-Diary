@@ -33,3 +33,23 @@
         transform: rotate(0deg);
     }
 }
+
+@keyframes leaf {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes leaf2 {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-1000px);
+    }
+}
