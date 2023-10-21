@@ -95,7 +95,7 @@ animation: mushrooms 2s infinite 1s;
     margin-top: 20px;
     border-radius: 2em;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
      
 }
 
@@ -108,17 +108,15 @@ animation: mushrooms 2s infinite 1s;
 }
 
 .leaves {
-    animation-name: leaf2;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    padding-top: 100%;
-    
+    animation: leaf2 10s linear infinite;
 }
+
 
 .leaves-list {
     display: flex;
-   
+    justify-content: flex-end;
+    gap: 20px; 
+    padding-right: 20px;
 }
 
 
