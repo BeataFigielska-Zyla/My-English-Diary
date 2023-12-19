@@ -36,22 +36,64 @@ ul {
     margin-bottom: 20px;
 }
 
+/* HEADER */
+
+.header-container {
+   display: flex;
+   width: 1200px;
+margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
 .title {
    text-align: center;
+    background-color: var(--main-color);
+        border: 1px dashed var(--second-color);
+        margin-bottom: 20px;
+        
+        
+        margin-top: 20px;
+        border-radius: 2em;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 2;
 }
 
 .title>p { 
     font-size: 35px;
+    color: var(--second-color);
+    box-shadow: 0 3px 3px var(--main-color);
 }
 
 .title>h1 {
     font-size: 70px;
-}
-
-h1 {
     background-color: var(--second-color);
     box-shadow: 0 3px 3px var(--main-color);
-    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    padding: 0%;
+
+}
+
+.contents {
+text-align: center;
+    background-color: var(--main-color);
+    border: 1px dashed var(--second-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 h2::before {
@@ -85,40 +127,9 @@ animation: mushrooms 2s infinite 1s;
     gap: 40px;   
 }
 
-.header-container {
-    background-color: var(--main-color);
-    border: 1px dashed var(--second-color);
-    margin-bottom: 20px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    border-radius: 2em;
-    display: flex;
-    flex-direction: column;
-     
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 30px auto;
-    padding: 0%;
-    
-}
-
-.leaves {
-    animation: leaf2 10s linear infinite;
-}
 
 
-.leaves-list {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;   
-}
+
 
 
 .icon {
