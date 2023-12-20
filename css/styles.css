@@ -30,6 +30,7 @@ body {
 ul {
     list-style: none;
 }
+
 .container {
     width: 1200px;
     background-color: var(--second-color);
@@ -51,7 +52,6 @@ ul {
     margin-right: auto;
     gap: 20px;
 }
-
 
 
 .title {
