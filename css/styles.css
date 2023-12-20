@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     
     font-family: 'Courier New', Courier, monospace;
@@ -20,6 +24,8 @@ body {
     background-position: left, right;  
     background-attachment: fixed;
 }
+
+
 
 ul {
     list-style: none;
@@ -152,10 +158,6 @@ animation: mushrooms 2s infinite 1s;
     justify-content: space-around;
     gap: 40px;   
 }
-
-
-
-
 
 
 .icon {
