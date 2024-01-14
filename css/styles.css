@@ -2,6 +2,8 @@
     --main-color: black;
     --second-color: rgb(248, 165, 42);
     --third-color: rgb(208, 67, 29);
+    --blue-color: blue;
+    --white-color: white;
 }
 
 *,
@@ -17,11 +19,10 @@ html {
 body {
     
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(../images/leaves.png), url(../images/leaves3.png);
+    
     background-color: var(--main-color);
     background-size: 275px;
-    background-repeat: repeat-y, repeat-y;
-    background-position: left, right;  
+     
     background-attachment: fixed;
 }
 
@@ -31,13 +32,23 @@ ul {
     list-style: none;
 }
 
-.container {
-    width: 1200px;
-    background-color: var(--second-color);
+.container-fall {
+    width: 1200px;  
     padding: 5px 15px;
     font-size: 20px;
     border: 3px dashed var(--main-color);
     background-image: linear-gradient(to bottom, var(--third-color), var(--second-color));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.container-winter {
+    width: 1200px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: 3px dashed var(--main-color);
+    background-image: linear-gradient(to bottom, var(--blue-color), var(--white-color));
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -128,13 +139,22 @@ ul {
 
 }
 
-h2::before {
+.date-entry-fall::before {
     content: '🍂';
 }
 
-article>p::after {
+.p-fall::after {
     content: '🍁🍂🍁'
 }
+
+.date-entry-winter::before {
+    content: '❄️';
+}
+
+.p-winter::after {
+    content: '❄️⛄️❄️'
+}
+
 .mushroom {  
     width: 100px;
     height: 100px;
@@ -193,5 +213,3 @@ animation: mushrooms 2s infinite 1s;
 .bunny-p::after {
     content: '🍁🍂🍁'
 }
-
-
