@@ -4,6 +4,8 @@
     --third-color: rgb(208, 67, 29);
     --blue-color: rgb(50, 50, 184);
     --white-color: white;
+    --grey-color: rgb(151, 147, 147);
+
 }
 
 *,
@@ -302,4 +304,15 @@ animation: mushrooms 2s infinite 1s;
 .gallery-fifi-title {
     text-align: center;
     font-size: 40px;
+}
+
+.homework {
+    background-image: linear-gradient(to bottom, var(--grey-color), var(--white-color));
+    width: 1200px;
+    padding: 20px;
+    font-size: 20px;
+    border: 3px dashed var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
