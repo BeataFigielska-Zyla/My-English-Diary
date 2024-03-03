@@ -316,3 +316,14 @@ animation: mushrooms 2s infinite 1s;
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+.squirrel-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.squirrel-second {
+ transform: scaleX(-1) scaleY(1);
+}
